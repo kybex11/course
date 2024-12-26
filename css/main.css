@@ -1,0 +1,72 @@
+body {
+    background-color: #0F172A;
+    user-select: none;
+}
+
+.navbar {
+    background-color: #262C3B;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    padding: 5px;
+}
+
+.nav-title, .nav-button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight:bold;
+}
+
+.nav-button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.nav-buttons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop-item {
+    background-color: black;
+    border-radius: 33px;
+    height: 500px;
+    width: 400px;
+}
+
+.shop-item h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shop-item button {
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    background-color: #503DFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    width: 100px;
+
+    transition: 0.3s ease-in-out;
+}
+
+.shop-item button:hover {
+    background-color: #b1d3ff;
+    color: rgb(137, 137, 137);
+}
+
+.shop-container {
+    background-color: #161616;
+    border-radius: 20px;
+}
